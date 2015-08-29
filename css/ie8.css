@@ -1,0 +1,362 @@
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q demo
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+body{
+	padding: 40px;
+	text-align: left;
+}
+html, body { height: 100%;}
+img{
+	max-width: 100%;
+}
+i{
+	color: white;
+	
+}
+
+#mainContent{
+	height: 280px;
+}
+.padding{
+	padding: 10px;
+}
+.boxcenter{
+	margin-left:20%;
+	padding-right:20px;
+	float: left;
+	width: 60px;
+}
+.center{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+h4{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: arial;
+}
+h1{
+	font-size: 2.8em;
+	text-transform: uppercase;
+	font-family: arial;
+}
+h2{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: arial;
+}
+span{
+	color:#7A418F;
+}
+h3{
+	font-size: 1.7em;
+	text-transform: uppercase;
+	font-family: arial;
+}
+p{
+	font-family: arial;
+}
+/*Header area */
+
+.slidewrapper{
+	width:700px;
+	padding-top:200px;
+	padding-left: 100px;
+}	
+.slide_title h1{
+	width:300px;
+	font-weight:bold;
+	padding-bottom:1em;
+}
+.slide_byline h2{
+	font-size: 14px;
+	width: 200px;
+
+}
+/* Main Nav css area */
+nav{
+	background-color: #ffffff;
+	height: 40px;
+	border-radius: 5px;
+	margin:35px;
+	z-index: 10;
+	width: 94%;
+	font-size: 11pt;
+	font-family: 'PT Sans', Arial;
+	font-weight: bold;
+	position: absolute;
+	color:black;
+	display: inline-block;
+	padding: 10px 15px;
+}
+nav a{
+	color:black;
+	display: block;
+    width: 150px;
+    text-align: center;
+
+}
+nav ul {
+	padding: 0;
+    margin: 0 auto;
+
+}
+nav li:last-child a {
+    border-right: 0;
+}
+
+nav li{
+	float: left;
+	display: inline;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+	
+}
+nav a:link{
+	display: inline-block;
+	padding: 10px 15px;
+}
+nav a#pull {
+    display: none;
+}
+
+
+.subs li{
+	background-color: white;
+}
+.subs li a{
+	float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.logo{
+	width: 110px;
+}
+
+.slide_text {
+  bottom: 0;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  zoom: 1;
+}
+
+.slide_title {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.slide_byline {
+  font-size: 0.8em;
+  display: block;  
+}
+
+/* Middle content aka box and row area */
+
+.row{
+	
+	width:33%!important;
+	float:left;
+}
+.box-inner p {
+	text-align: center!important;
+}
+.box{
+	background:#7a418f!important;
+	margin-right: 30px;
+	height:240px;
+}
+.inner_center{
+	padding-top:5.5em;
+}
+.inner_halfcenter{
+	padding:40px;
+}
+.row:nth-child(1) .box{
+	background:#7a418f;
+}
+.row:nth-child(2) .box{
+	background:#747f58;
+}
+.row:nth-child(3) .box{
+	background:#ad7721;
+	margin:0;
+}
+	
+.row:nth-child(1){
+	width:50%;
+}
+
+.content1{
+	width:100%;
+	color:white;
+}
+.aligncenter{
+	text-align: center
+}
+.mainNav a:hover{
+	color:purple;
+	
+}
+.flex-container {
+}
+.flexslider .slides img {
+    margin: 0 auto;
+    width: 100%;
+}
+.flex-viewport{
+	height:600px;
+}
+.flexslider{
+	
+}
+
+
+/* Footer area */
+
+#footer { height: 100%; }
+#map { height: 50%; }
+#footerwrapper{
+	width: 100%;
+	height: 400px;
+	background: #21242d; /* Old browsers */
+	background: -ms-linear-gradient(top,  #21242d 0%,#623c66 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #21242d 0%,#623c66 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21242d', endColorstr='#623c66',GradientType=0 ); /* IE6-9 */
+
+
+}
+footer p{
+	color: #fff;
+}
+#footerwrapper footer{
+	padding-top: 5%;
+}
+#footerwrapper footer p:nth-child(1),p:nth-child(2),p:nth-child(3){
+	padding:2px;
+	font-size: 14px;
+}
+#footerwrapper footer p:nth-child(4),p:nth-child(5),p:nth-child(6){
+	padding:14px;
+}
+#footerwrapper footer p:nth-child(6){
+	padding:8em;
+	color: rgba(134, 134, 134, 0.56);
+}
+
+@media screen and (max-width: 1024px){
+    .flex-viewport,.flexslider {
+        height:auto;
+    }
+	    .row{
+		float:none;
+	}
+	 nav { 
+        height: auto;
+        position: relative;
+        background-color: rgba(96, 121, 120, 0.25);
+        width: auto;
+    }
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    nav li {
+        width: 60%;
+        float: left;
+        position: relative;
+        border:none;
+        float:none;
+    }
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+        text-align: center;
+    }
+    .logo{
+    	display:none;
+    }
+    #mainContent{
+    	height: 720px;
+    }
+    .box{
+    	margin-right: 0;
+    }
+    .row,.row:nth-child(1){
+    	width: 100%;
+    }
+
+
+
+}
+@media only screen and (max-width : 480px) {
+    nav {
+        border-bottom: 0;
+        font-size: 18px;
+    }
+    nav ul {
+        display: none;
+        height: auto;
+    }
+    nav a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+        .inner_center h4,i,p{
+		text-align: center;
+
+	}
+	.boxcenter{
+		width: 100px;
+		margin-left:40%;
+	}
+}
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+    }
+}
+
+
