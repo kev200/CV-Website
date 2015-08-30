@@ -582,6 +582,13 @@ p:nth-child(6) {
     nav ul li i{
     	margin-top: 9px;
     }
+    .submenu ul .arrowBox:nth-child(2) {
+    margin-left: 220px;
+
+	}
+	.submenu a:hover + .pleft {
+    margin-left: 230px;
+	}
 }
 @media only screen and (max-width: 480px) {
     nav {
@@ -694,6 +701,12 @@ p:nth-child(6) {
 	}
 	.submenu ul{
 		display: none!important;
+	}
+	.mainNav:before{
+		margin-left: 4em;
+	}
+	.mainNav:after{
+		margin-left: 0em;
 	}
 }
 /* Table css */
